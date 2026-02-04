@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "TLG Treasury"
+  site-url: https://frankk1999.github.io/tlg-treasury/
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
